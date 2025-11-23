@@ -7,17 +7,41 @@
 function generateFeedbackMessage(mention, staffRole) {
   return `
 ${staffRole}
-**📋 Salon de feedback pour ${mention}**
+╔═══════════════════════════════════════════╗
+**📋  SALON DE FEEDBACK — ${mention}**
+╚═══════════════════════════════════════════╝
 
-Bienvenue dans ce salon dédié au **suivi continu** et à l’**amélioration constante** de ta participation au roster **Get ReKt**.  
-Il restera actif **aussi longtemps que tu feras partie de l’équipe**, et servira de pont direct entre toi et les offs.
-### 🎯 Objectifs de ce salon :
-• Offrir aux offs un espace pour te faire des retours réguliers (positifs ou à améliorer)  
-• Te permettre de poser des questions, demander des conseils ou clarifier certains choix  
-• Faciliter les échanges à chaud après les raids pour ajuster ensemble durant le progress
+Bienvenue dans ton espace personnel de suivi et de progression au sein de **Get ReKt**.
 
-:warning: Ce salon est un **espace bienveillant et constructif**.  
-L’objectif est de progresser ensemble dans une communication claire, respectueuse et orientée équipe.`;
+Ce salon a été créé pour **optimiser ta performance** et **renforcer ta synergie** avec l'équipe. Il restera ouvert pendant toute la durée de ta présence dans le roster et constitue un **canal de communication direct** avec l'équipe officier.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🎯  OBJECTIFS ET FONCTIONNEMENT
+
+**Pour les officiers :**
+• Fournir des retours réguliers sur tes performances (points forts et axes d'amélioration)
+• Partager des analyses détaillées post-raid et recommandations stratégiques
+• Assurer un suivi personnalisé de ta progression et de ton intégration
+
+**Pour toi :**
+• Poser toutes tes questions concernant les stratégies, compositions ou mécaniques
+• Demander des clarifications sur les décisions tactiques et les attentes
+• Échanger en temps réel après les raids pour ajuster ta performance
+• Solliciter des conseils pour maximiser ton impact dans le roster
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### ⚠️  CADRE ET ÉTAT D'ESPRIT
+
+Ce salon est un **espace de développement professionnel** basé sur :
+✓ La **bienveillance** — Les retours visent à te faire progresser, jamais à te dévaloriser
+✓ La **transparence** — Communication directe, honnête et constructive
+✓ Le **respect mutuel** — Écoute active et dialogue orienté solutions
+✓ L'**excellence collective** — Ton amélioration renforce toute l'équipe
+
+**Notre engagement :** Te donner les outils et le soutien nécessaires pour exprimer ton plein potentiel au sein de Get ReKt.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+*N'hésite jamais à solliciter l'équipe officier — nous sommes là pour t'accompagner vers l'excellence.*`;
 }
 
 module.exports = { generateFeedbackMessage };
