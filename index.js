@@ -18,12 +18,13 @@ client.once("ready", () => {
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
+  if (!message.inGuild()) return;
 
   const staffRole = message.guild.roles.cache.find(
     (r) => r.name === process.env.STAFF_ROLE_NAME,
   );
   if (!staffRole || !message.member.roles.cache.has(staffRole.id)) {
-    return; // Only allow staff
+    return;
   }
 
   if (message.content.startsWith("!feedback")) {
