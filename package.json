@@ -1,14 +1,18 @@
 {
-  "name": "nodejs",
+  "name": "get-rekt-discord-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Discord bot for managing feedback channels for Get ReKt guild",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["discord", "bot", "feedback"],
+  "author": "saylaan",
   "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@types/node": "^22.13.11",
     "discord.js": "^14.18.0",
